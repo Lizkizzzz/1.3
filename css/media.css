@@ -1,31 +1,31 @@
 @media (min-width: 768px) {
-    .nav__items--logo {
+    .list-item__logo {
         padding-left: 26px;
     }
 
-    .nav__header--contacts {
+    .header__list-item--hid320-1120 {
         display: flex;
         align-items: center;
     }
 
-    .nav__items--logo::before {
+    .list-item__logo::before {
         visibility: visible;
     }
 
-    .nav__items--logo::after {
+    .list-item__logo::after {
         visibility: hidden;
     }
 
-    .nav__items--profile::after {
+    .list-item__profile::after {
         visibility: visible;
     }
 
-    .title__header {
+    .header__title {
         padding-bottom: 32px;
         padding-left: 24px;
     }
 
-    .nav__main {
+    .main__nav {
         padding-left: 24px;
     }
 
@@ -33,16 +33,16 @@
         flex-direction: row;
     }
 
-    .content__item--first {
+    .content__item--text {
         width: 50%;
         margin-bottom: 0;
     }
 
-    .content__item--second {
+    .content__item--image {
         width: 50%;
     }
 
-    .content__descr {
+    .content__excerpt {
         height: 160px;
         margin-bottom: 10px;
         padding-top: 32px;
@@ -50,11 +50,7 @@
         padding-right: 48px;
     }
 
-    /*.content__text:first-child {*/
-    /*    margin-bottom: 1em;*/
-    /*}*/
-
-    .content__link {
+    .content__button {
         padding-left: 33px;
         font-size: 16px;
     }
@@ -73,44 +69,55 @@
 }
 
 @media (min-width: 1120px) {
-    .container {
+    .header--box {
         flex-direction: row-reverse;
         justify-content: space-between;
+        padding-right: 8px;
     }
 
     .header {
         background-color: #F8F8F8;
     }
 
-    .nav__header--menu-logo {
+    .header__list-item--hid1120 {
         display: none;
     }
 
-    .nav__header--contacts {
+    .header__list-item--hid320-1120 {
         display: none;
     }
 
-    .subtitle {
-        display: block;
+    .list-item__button {
+        display: flex;
+        align-items: center;
+        background-color: #F8F8F8;
     }
 
-    .content__descr {
+    .nav__list--main {
+        flex-wrap: wrap;
+    }
+
+    .main__list-item {
+        padding: 8px 22px;
+    }
+
+    .content__excerpt {
         padding-top: 19px;
         margin-right: 36px;
     }
 
-    .nav__text {
+    .list-item__text {
         display: block;
         font-size: 16px;
     }
 
-    .nav__items--icon {
+    .list__item--icon {
         background-color: #F8F8F8;
     }
 
     .content__picture {
         margin-bottom: 49px;
-        padding-top: 2px;
+        margin-top: -32px;
         margin-right: 29px;
     }
 }

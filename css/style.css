@@ -64,12 +64,12 @@ body {
   align-items: center;
 }
 
-.header__list-item--hid320-1120 {
+.header__list-item--connection {
   display: none;
   margin-right: 42px;
 }
 
-.list-item__button:not(:last-of-type) {
+.foo__button:not(:last-of-type) {
   margin-right: 16px;
 }
 
@@ -152,7 +152,7 @@ body {
   width: 4px;
   height: 40px;
   top: 24px;
-  left: 0px;
+  left: 0;
   background-color: #41F6D7;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
@@ -225,7 +225,6 @@ body {
 .text {
   font-size: 14px;
   line-height: 129%;
-  letter-spacing: 0.2px;
 }
 
 .content__button {

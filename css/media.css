@@ -3,7 +3,7 @@
         padding-left: 26px;
     }
 
-    .header__list-item--hid320-1120 {
+    .header__list-item--connection {
         display: flex;
         align-items: center;
     }
@@ -79,15 +79,15 @@
         background-color: #F8F8F8;
     }
 
-    .header__list-item--hid1120 {
+    .header__list-item--menu-logo {
         display: none;
     }
 
-    .header__list-item--hid320-1120 {
+    .header__list-item--connection {
         display: none;
     }
 
-    .list-item__button {
+    .foo__button {
         display: flex;
         align-items: center;
         background-color: #F8F8F8;
